@@ -1,0 +1,58 @@
+/* Formulaire CSS style sheet */ 
+body{
+    background-color: rgb(164, 247, 247); 
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 70px; 
+    color: Purple;  
+}
+form{
+    background-color: #fff;
+    opacity: 55%;
+    height: 550px; 
+    max-width: 700px; 
+    border-radius: 10px; 
+    margin:5%; 
+    box-shadow: #222 10px 5px 5px;
+}
+.container{
+    padding:45px; 
+}
+input{
+    width: 90%; 
+    height: 50px; 
+    margin: 20px;
+    box-shadow: #222 10px 5px 5px;
+    border-style: solid 1px; ;
+    border-radius: 10px; 
+}
+/* the input form */ 
+/* The input email*/ 
+input[name="input-email-input" ]{
+
+
+}
+/* The input password */ 
+input[name=""]{
+
+}
+/* the submit button */ 
+input[name="submit-btn-section"]{
+    background-color:aqua; 
+    color: purple; 
+    font-size:30px;    
+}
+input:hover[name="submit-btn-section"]{
+    background-color: purple;
+    color:aqua; 
+    font-size:40px; 
+}  
+label{
+    color:purple; 
+    margin:5%; 
+}
+div{
+    font-size: 30px; 
+}
